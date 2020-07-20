@@ -1,0 +1,56 @@
+.contactTitle {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-top: 7%;
+  margin-bottom: 2rem;
+}
+
+.flexSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxTop input {
+  margin: .5rem;
+  height: 2rem;
+  width: 11rem;
+  border-radius: 0.7rem;
+}
+
+.boxTop input::placeholder {
+  padding: .5rem;
+}
+
+.boxBttm {
+  margin: .5rem;
+  height: 5rem;
+  width: 23rem;
+  border-radius: 0.7rem;
+}
+
+.boxBttm::placeholder {
+  padding: .5rem;
+}
+
+.boxBttns button {
+  margin: .5rem;
+  height: 2rem;
+  width: 11rem;
+  border-radius: 0.7rem;
+}
+
+.contactLinkSec {
+  text-align: left;
+}
+
+.contactLink a {
+  text-decoration: none;
+  color: black;
+  margin: 0.3rem;
+  font-size: 1.5rem;
+}
+
+.contactLink {
+  margin: 2rem;
+}

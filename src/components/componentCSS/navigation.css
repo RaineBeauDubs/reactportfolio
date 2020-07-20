@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navLink {
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.activeNavLink {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media (max-width:700px) {
+  .navLink {
+    margin: 1rem 0.5rem;
+  }
+}

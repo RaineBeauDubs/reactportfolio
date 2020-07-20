@@ -1,0 +1,33 @@
+.homeCont {
+  margin: 25% auto;
+
+}
+.homeTitle {
+  font-size: 11rem;
+  font-weight: bold;
+  animation-name: titleFade;
+  animation-duration: 7s;
+}
+
+.homeSubTitle {
+  font-size: 5rem;
+  font-style: italic;
+  margin: 3rem;
+  animation-name: titleFade;
+  animation-duration: 15s;
+}
+
+@keyframes titleFade {
+  from {color: rgb(253, 205, 190);}
+  to {color: black;}
+}
+
+@media (max-width:600px) {
+  .homeTitle {
+    font-size: 7rem;
+  }
+  
+  .homeSubTitle {
+    font-size: 3rem;
+  }
+}
